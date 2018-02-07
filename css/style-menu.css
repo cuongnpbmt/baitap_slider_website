@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menuchinh ul ul{
+	position:absolute;
+	left:0px;
+	top: 49px;
+	display:none;
+}
+
+/*hien thi menu con cap 1*/
+.menuchinh ul li:hover ul{
+	display:block;
+}
+
+
+
+
+.menuchinh ul ul li {
+	width:135px;
+	height: 25px;
+	background-color: rgba(77,176,241,0.8);
+	border:1px solid #fff;
+	line-height:25px;
+	background-image:url(images/menu-icon.png);
+	text-align:left;
+	padding: 0px;
+	padding-left:25px;
+	background-position:4px center  ;
+	border-top:none;
+
+}
+
+.menuchinh ul ul li:first-child{
+	background-image:url(images/menu-icon.png);
+	border-top:1px solid #fff;
+}
+.menuchinh ul li{
+	position:relative;
+	
+}
+
+/*Menu con cấp 2 */
+.menuchinh ul ul ul {
+	left:160px;
+	top:0px;
+	display:none;
+}
+
+
+
+/*an menu con cap 2*/
+.menuchinh ul li:hover ul ul {
+	display:none;
+}
+
+.menuchinh ul ul li:hover ul {
+	display:block;
+}

@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+.trangdangky .cactinchinh {
+	width:540px;
+	height:550px;
+	background-image:url(images/nenmid.png);
+	background-color:transparent;
+	border:1px solid #85aacd;
+}
+
+.dangky-top {
+	width:540px;
+	height:81px;
+
+}
+
+.dangky-mid {
+	width:540px;
+	height:463px;
+
+}
+
+.xacnhandangky {
+	width:320px;
+	height:81px;
+
+	float:left;
+}
+
+.tieude {
+	width:320px;
+	height:53px;
+
+}
+.luachonxacnhan {
+	width:320px;
+	height:25px;
+
+}
+
+.tieude span {
+	background-image:url(images/thanhtieude.png);
+	width:272px;
+	height:50px;
+	background-repeat:no-repeat;
+	float:left;
+	text-align:center;
+	line-height:50px;
+	margin-left:-9px;
+	margin-top:3px;
+}
+
+.dienthoailienhe {
+	width:200px;
+	height:81px;
+	
+	float:left;
+}
+
+.dienthoailienhe span {
+	background-image:url(images/dammay.png);
+	width:175px;
+	height:80px;
+	float:left;
+	
+}
+.dong {
+	width:500px;
+	height:30px;
+	
+	margin:10px 20px;
+}
+
+.dong .trai-dong {
+	width:150px;
+	height:30px;
+	text-align:right;
+	margin-right:30px;
+	float: left;
+}
+
+.dong .phai-dong {
+	width:290px;
+	height:30px;
+	
+	float:left;
+	
+}
